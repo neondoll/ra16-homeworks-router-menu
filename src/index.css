@@ -1,0 +1,13 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body { font-family: sans-serif; background-color: #260F26; }
+
+html { font-size: calc(10px + (14 - 10) * ((100vw - 400px) / (800 - 400))); }
+
+@media screen and (max-width: 400px) {
+    body { font-size: 10px; }
+}
+
+@media screen and (min-width: 800px) {
+    body { font-size: 14px; }
+}
